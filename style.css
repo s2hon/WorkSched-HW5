@@ -86,12 +86,11 @@ textarea{
 }
 
 .hideBtn {
+  position:relative;
   border-left: 1px solid black;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   color: black;
   max-height: 10px;
   width: 100%;
-  text-align: center;
-
 }

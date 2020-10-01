@@ -61,16 +61,16 @@ $(document).ready(function(){
             $('#calendar-row'+i).children('textarea').val(localStorage.getItem(i));
         }
 
-    //hide plans
+    //hide/show plans
     $('.hideBtn').on('click', function () {
         $(this).parent().siblings('textarea').toggle();
     });
-
-    //needs to clear everyday
-    if (nowHour >= 7){
-        window.localStorage.clear();
-        $("textarea").val("");
-    };
+    
+    // //needs to clear everyday
+    // if (nowHour >= 7){
+    //     window.localStorage.clear();
+    //     $("textarea").val("");
+    // };
 });
 
 
