@@ -31,6 +31,7 @@ I feel much more confident with the logic skills (how to code out functions) com
 I will countinue on my JavaScript (and now jQuery!) journey.
 
 Git Hub: https://github.com/s2hon/WorkSched-HW5
+
 Live Website: https://s2hon.github.io/WorkSched-HW5/
 
 
